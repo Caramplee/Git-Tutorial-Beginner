@@ -49,3 +49,29 @@ node_modules/ # entire working directory
 
 git rm # << remove file, but it will be staged so it is not permentely lost until commit
 git rm --cached "filename" # << remove from git tracking, alternatively add filename to git ignored
+
+#Command Description
+git status #Show working tree status
+
+git diff #Show unstaged changes
+
+git diff --staged #Show staged changes
+
+git restore [file] #Discard working directory changes
+
+git restore --staged [file] #Unstage files
+
+git reset --soft HEAD~1 #Undo last commit, keep changes staged
+
+git reset HEAD~1 #Undo last commit, keep changes unstaged
+
+git reset --hard #HEAD~1 Undo last commit, discard changes
+
+git rm [file] # Remove file from repository
+
+git rm --cached [file] #Stop tracking file
+
+git mv [old] [new] #Rename/move file
+
+
+# Branch
