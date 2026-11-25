@@ -38,3 +38,14 @@ git reset --hard HEAD~ #<<< hard reset deletes uncommited work
 # gitignore
 
 create file .gitignore 
+
+db.sql # << specific file
+password.txt # << specific file
+*.log # << entire . log files
+node_modules/ # entire working directory
+!important.log # ignore specific file in *.log
+
+# moving file or rename file
+
+git rm # << remove file, but it will be staged so it is not permentely lost until commit
+git rm --cached "filename" # << remove from git tracking, alternatively add filename to git ignored
