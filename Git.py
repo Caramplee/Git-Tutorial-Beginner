@@ -75,3 +75,7 @@ git mv [old] [new] #Rename/move file
 
 
 # Branch
+
+git branch #<<< check list of branch exists (main or master is a defult branch)
+git switch -c "Filename" #<< create new branch and switch to that branch
+git switch "File name" #<< move to named branch
