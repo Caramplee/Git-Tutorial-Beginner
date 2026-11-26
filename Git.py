@@ -105,3 +105,15 @@ git push # push commit to origin main.
 
 git push -u origin main # push your code and file to github
 
+
+# Git stash ( save the file tempoliary not commit just save)
+
+git stash #<< save all changes to the file and return to the origin
+
+git stash apply #<<< apply stash to the file
+git stash pop #<<< apply and remove the stash
+
+git stash list #<< see list of stash (there can be multiple stash)
+
+
+
