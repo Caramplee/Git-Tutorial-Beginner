@@ -95,3 +95,7 @@ git checkout --theirs "filename" #<<< use theirs filename as finalversion
 #finally git add "filename" and git commit 
 
 #pushing (update file to github)
+
+git remote add origin https://github.com/Caramplee/Git-Tutorial-Beginner.git #<<< this is the url of github repository
+git branch -M main # change the name of the branch from master to main
+git push -u origin main # push your code and file to github
