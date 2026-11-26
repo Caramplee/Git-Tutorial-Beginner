@@ -80,6 +80,8 @@ git branch #<<< check list of branch exists (main or master is a defult branch)
 git switch -c "Filename" #<< create new branch and switch to that branch
 git switch "File name" #<< move to named branch
 
+git branch -d "Branch name" #<< remove branch (USE CAREFULLY!)
+
 #merging branch
 
 git merge "Name of the branch"
@@ -91,3 +93,5 @@ git checkout --theirs "filename" #<<< use theirs filename as finalversion
 
 # or resloved by yourself , open the conflict file to see the marker and reslove it
 #finally git add "filename" and git commit 
+
+#pushing (update file to github)
