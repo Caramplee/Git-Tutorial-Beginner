@@ -79,3 +79,15 @@ git mv [old] [new] #Rename/move file
 git branch #<<< check list of branch exists (main or master is a defult branch)
 git switch -c "Filename" #<< create new branch and switch to that branch
 git switch "File name" #<< move to named branch
+
+#merging branch
+
+git merge "Name of the branch"
+
+#merging conflict
+# when 2 file develops differently it need to verified which version is used
+git checkout --ours "filename" # <<< use our filename final version
+git checkout --theirs "filename" #<<< use theirs filename as finalversion
+
+# or resloved by yourself , open the conflict file to see the marker and reslove it
+#finally git add "filename" and git commit 
