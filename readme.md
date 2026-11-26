@@ -1,1 +1,1 @@
-Please read me
+This My first Github Repository! This is where my journey begins!
